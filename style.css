@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/background.jpg");
+  
+    width: 100%;
+    height:100vh;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+    padding-left: 25px;
+}
+.hea{
+    font-size: 4rem;
+    width: 30%;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+.hero p{
+    font-size: 1.2rem;
+    width: 30%;
+    margin-bottom: 40px;
+}
+.btn1{
+    padding: 10px 25px;
+    font-size: 1rem;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:#b402b4;
+    color: rgb(243, 242, 242);
+    
+}
+.btn2{
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: solid 2px #e2e0e2;
+    background-color:transparent;
+    color: rgb(243, 242, 242);
+}
+.main{
+    border: solid 2px white;
+    width: 24.77%;
+    margin-top: 30px;
+    padding: 20px;
+    display: inline-block;
+}
+.icon{
+    font-size: 2.2rem;
+    margin-left: 10px;
+}
+.main p{
+    font-size: 1.3rem;
+    width: 100%;
+    margin-top: 15px;
+}
+.main h2{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.h{
+     font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+.filters {
+      margin-bottom: 30px;
+      color: #666;
+    }
+
+    .filters span,
+    .filters a {
+      margin-right: 15px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #666;
+    }
+
+    .filters a {
+      color: #4f46e5;
+      font-weight: bold;
+    }
+
+table {
+      width: 100%;
+      border-spacing: 20px;
+    }
+
+    td {
+      width: 50%;
+      background: #f9f9f9;
+      border-radius: 12px;
+      vertical-align: top;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .pet-row {
+      height: 200px;
+    }
+
+    .pet-image {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .pet-info {
+      padding: 16px 0;
+    }
+
+    .pet-name {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .pet-name img {
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+      margin-left: 6px;
+    }
+
+    .pet-description {
+      font-size: 0.9rem;
+      color: #333;
+      margin: 8px 0;
+    }
+
+    .pet-age {
+      font-size: 0.75rem;
+      color: #999;
+    }
+ 
